@@ -30,3 +30,30 @@
 		animation: moveInBottom 1s ease-out 1.6s backwards;
 	}
 }
+
+.btn-text {
+	&:link,
+	&:visited {
+		font-size: 1.6rem;
+		font-weight: 300;
+		text-decoration: none;
+		display: inline-block;
+		color: $color-primary;
+		border-bottom: 2px solid $color-primary;
+		padding: 3px;
+		transition: .2s all;
+	}
+	&:hover {
+		color: $color-white;
+		background-color: $color-primary;
+		box-shadow: 0 1rem 2rem rgba($color-black, .25);
+		transform: translateY(-2px);
+	}
+	&:active {
+		transform: translateY(0);
+		box-shadow: 0 .5rem 1rem rgba($color-black, .25);
+	}
+	&:after {
+		text-decoration: none;
+	}
+}

@@ -37,7 +37,7 @@ body {
 }
 
 .heading-secondary {
-	font-size: 3.5rem;
+	font-size: 4.5rem;
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: .75rem;
@@ -51,5 +51,19 @@ body {
 
 	&:hover {
 		transform: skewY(-1deg) skewX(-4deg) scale(1.05);
+	}
+}
+
+.heading-tertiary {
+	font-size: 2.0rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.paragraph {
+	font-size: 1.6rem;
+	font-weight: 300;
+	&:not(:last-child) {
+		margin-bottom: 2rem;
 	}
 }
