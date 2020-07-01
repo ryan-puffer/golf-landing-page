@@ -3,3 +3,21 @@
 	padding: 25rem 0;
 	margin-top: -15vh;
 }
+
+.section-features {
+	background-image: linear-gradient(
+			to right bottom,
+			rgba(lighten($color-primary-light, 15%), .5),
+			rgba($color-primary-dark, .5)
+		),
+		url(../img/golf-4.jpg);
+	background-size: cover;
+	padding: 20rem 0;
+
+	transform: skewY(-7deg);
+	margin-top: -10rem;
+
+	& > * {
+		transform: skewY(7deg);
+	}
+}
